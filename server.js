@@ -18,5 +18,5 @@ app.get('/services', function (req, res) {
 var server = app.listen(7667, function () {
     var host = server.address().address
     var port = server.address().port
-    console.log("listening on 8767", host, port)
+    console.log("listening on 7667", host, port)
 });
